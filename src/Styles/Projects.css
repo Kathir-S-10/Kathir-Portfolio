@@ -1,0 +1,66 @@
+.project-border {
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+    height: 750px;
+}
+
+#project-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.rest-img {
+    width: 450px;
+    height: 220px;
+}
+
+.rest-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
+    display: inline;
+}
+
+@media only screen and (max-width: 992px) {
+    .project-border {
+        height: 1000px;
+    }
+    .rest-img {
+        width: 350px;
+        height: 190px;
+    }
+
+}
+@media only screen and (max-width: 520px) {
+    .rest-img {
+        width: 350px;
+        height: 190px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .project-border{
+        height: 850px;
+    }
+    .rest-img{
+    width: 340px;
+    height: 160px;
+    position: relative;
+    margin-top: 20px;
+  }
+  .rest-name{
+        position: relative;
+        top: 10px;
+  }
+}
+
+@media only screen and (max-width: 359px) and (min-width: 320px){
+    .rest-img{
+        width: 310px;
+    height: 140px;
+    }
+}

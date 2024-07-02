@@ -1,0 +1,72 @@
+.about-border{
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+    height: 370px;
+}
+.column1{
+    height: 300px;
+    margin-top: 30px;
+}
+.column2{
+    border-left: 1px solid red;
+    height: 300px;
+    margin-top: 30px;
+}
+
+#about-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+.about-desc{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.skills-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.skill-img{
+    width: 45px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.skill-img:hover{
+    width: 47px;
+}
+@media only screen and (max-width: 987px){
+    .about-border{
+        height: 550px;
+    }
+   }
+
+@media only screen and (max-width: 767px){
+    .about-border{
+        height: 650px;
+    }
+   }
+
+@media only screen and (max-width: 378px){
+    .column2{
+        height: 300px;
+        margin-top: 70px;
+    }
+   }
+   @media only screen and (max-width: 329px){
+    .column2{
+        height: 300px;
+        margin-top: 100px;
+    }
+    .about-border{
+        height: 730px;
+    }
+   }

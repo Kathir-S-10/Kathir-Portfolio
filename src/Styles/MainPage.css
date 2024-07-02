@@ -1,0 +1,161 @@
+.mainpage-border {
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+    height: 500px;
+}
+
+.col1 {
+    /* border: 1px solid red; */
+    height: 350px;
+    position: relative;
+    top: 80px;
+}
+
+.hello {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    text-align: center;
+}
+
+.intro {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -30px;
+    margin-right: 20px;
+
+}
+
+.intro span {
+    position: relative;
+    left: 20px;
+    color: rgb(107, 107, 107);
+}
+
+.intro-desc {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: justify;
+    font-size: 20px;
+    width: 400px;
+    border-top: 3px solid orange;
+}
+
+.frontend {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    /*  */
+    border: 1px solid black;
+    width: 350px;
+    animation: typing 2s steps(19),
+        blink .5s infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: -15px;
+    border-right: 5px solid;
+    letter-spacing: 5px;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.profile-img {
+    width: 320px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .profile-img {
+        width: 250px;
+    }
+
+    .profiles {
+        top: -220px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mainpage-border {
+        height: 800px;
+    }
+
+    .intro-desc {
+        width: 360px;
+    }
+
+    .profile-img {
+        width: 290px;
+    }
+
+    .profiles {
+        top: -250px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .mainpage-border {
+        margin-top: 25px;
+    }
+    .intro-desc{
+        width: 330px;
+    }
+    .frontend{
+        font-size: 20px;
+        width: 330px;
+    }
+}
+
+.profiles {
+    /* border: 1px solid blue; */
+    height: 200px;
+    width: 50px;
+    position: relative;
+    bottom: 260px;
+    left: 150px;
+}
+
+@media only screen and (max-width: 359px) and (min-width: 320px){
+.frontend{
+    font-size: 15px;
+        width: 300px;
+}
+.intro-desc{
+    width: 280px;
+}
+.profile-img{
+    width: 270px;
+}
+.profiles {
+    left: 140px;
+}
+}
+
+.logo-img {
+    width: 35px;
+    margin-top: 25px;
+}
+
+.logo-img:hover {
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 50px;
+    border: 1px solid rgb(255, 255, 255);
+}

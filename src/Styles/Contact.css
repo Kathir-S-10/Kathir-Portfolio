@@ -1,0 +1,77 @@
+.contact-border{
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    margin-top: 10px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.746);
+}
+#contact-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+}
+.left-col{
+text-align: right;
+color: white;
+}
+.right-col{
+    text-align: left;
+}
+.send-btn{
+    background-color:rgba(0, 209, 255, 0.75);
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.logos-btn{
+    background-color:rgba(0, 209, 255, 0.75);
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 8px;
+}
+.logos{
+    width: 380px;
+}
+.logos-logo{
+
+    width: 40px;
+}
+
+@media only screen and (max-width: 378px){
+    .left-col{
+        text-align: right;
+        color: white;
+        font-size: 12px;
+        }
+    .send-btn{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .resume-btn{
+        background-color:rgba(0, 209, 255, 0.75);
+        border: none;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+        text-decoration: none;
+        margin-left: -5px;
+    }
+    .logos{
+        width: 300px;
+    }
+   }
+
+
+   
