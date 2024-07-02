@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Kathir-Portfolio/static/css/main.ecc205d3.css",
-    "main.js": "/Kathir-Portfolio/static/js/main.015deaac.js",
+    "main.css": "/Kathir-Portfolio/static/css/main.04de7622.css",
+    "main.js": "/Kathir-Portfolio/static/js/main.72887311.js",
     "static/js/453.eacd2753.chunk.js": "/Kathir-Portfolio/static/js/453.eacd2753.chunk.js",
     "static/media/rest.png": "/Kathir-Portfolio/static/media/rest.3fb12266791318e4451d.png",
     "static/media/cafe.png": "/Kathir-Portfolio/static/media/cafe.00ab9d4458bd3c89422f.png",
     "static/media/net.png": "/Kathir-Portfolio/static/media/net.309b9862d8f02aefb279.png",
     "static/media/profile.png": "/Kathir-Portfolio/static/media/profile.436464be72c185b066de.png",
     "index.html": "/Kathir-Portfolio/index.html",
-    "main.ecc205d3.css.map": "/Kathir-Portfolio/static/css/main.ecc205d3.css.map",
-    "main.015deaac.js.map": "/Kathir-Portfolio/static/js/main.015deaac.js.map",
+    "main.04de7622.css.map": "/Kathir-Portfolio/static/css/main.04de7622.css.map",
+    "main.72887311.js.map": "/Kathir-Portfolio/static/js/main.72887311.js.map",
     "453.eacd2753.chunk.js.map": "/Kathir-Portfolio/static/js/453.eacd2753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecc205d3.css",
-    "static/js/main.015deaac.js"
+    "static/css/main.04de7622.css",
+    "static/js/main.72887311.js"
   ]
 }
